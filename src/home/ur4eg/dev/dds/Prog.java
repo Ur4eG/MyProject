@@ -12,7 +12,13 @@ public class Prog {
         array.add(a);
         array.add(128);
         array.add(1228);
+        array.add(new Integer(23232));
+        int i = 10;
+        array.add(i);
         //System.out.println(a.hashCode()%10);
-        array.print();
+        System.out.println(array);
+        array.remove("gfhghfh");
+        array.remove(i);
+        System.out.println(array);
     }
 }
